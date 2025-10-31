@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Page Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">🔍</div>
+            <h1>Smart Page Search</h1>
+            <p class="subtitle">AI-powered browsing history search</p>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input"
+                placeholder="Search your browsing history..."
+                autofocus
+            >
+            <button id="searchBtn" class="search-button">Search</button>
+        </div>
+
+        <!-- Status -->
+        <div id="status" class="status"></div>
+
+        <!-- Results -->
+        <div id="results" class="results"></div>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <span>Searching...</span>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

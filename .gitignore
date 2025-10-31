@@ -1,0 +1,10 @@
+.venv
+.python-version
+.env
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/src/smart_search/data
