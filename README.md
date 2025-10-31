@@ -1,7 +1,3 @@
-=========================================================
-SMART PAGE SEARCH - CHROME EXTENSION WITH PYTHON BACKEND
-=========================================================
-
 PROJECT SUMMARY
 ---------------
 A complete Chrome extension that:
